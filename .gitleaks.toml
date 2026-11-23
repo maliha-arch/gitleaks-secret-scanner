@@ -11,7 +11,7 @@ regex = '''(?m)^AWS_ACCESS_KEY_ID\s*=\s*"(AKIAIOSFODNN7EXAMPLE)"'''
 secretGroup = 1
 
 [[rules]]
-id = "classroom-demo-code"
-description = "Classroom demo code"
+id = "pivot-api-key"
+description = "Fictional PivotMove Logistics service API key"
 path = '''(^|/)config\.py$'''
-regex = '''\bLAB-DEMO-[0-9]{6}\b'''
+regex = '''\bPIVOT-[0-9]{6}\b'''
